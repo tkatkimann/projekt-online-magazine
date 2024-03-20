@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    width:100%;
+    background-image: url(./img-webp/forside-billeder/pexels-ray-piedra-1478477\ \(1\).webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    width:100%;
+    background-color: #F2B263;
+    height:75px;
+    line-height: 75px;
+    padding: 0px 120px;
+}
+
+nav h1 {
+    font-size: 32px;
+    font-family:'Poppins', monospace;
+    color:white;
+    float: left;
+   
+}
+
+
+
+nav ul{
+    float:right;
+}
+
+nav ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-family:'Poppins', monospace;
+    color:white;
+    font-size: 17px;
+    padding: 0px 16px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color:#86A690
+
+}
+
+nav ul li ul{
+    position:absolute;
+    display: none;
+    background-color: #86A690;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav ul li:hover ul{
+    display:block;
+}
+
+nav ul li ul li{
+    line-height:1;
+    width:auto; 
+    min-width:200px;
+    border-radius:5px;
+    padding:6px;
+
+}
+
+nav ul li ul li a{
+    padding: 10px 16px;
+}
+
+nav ul li ul li a:hover{
+    background-color:#94b9a0;
+}
