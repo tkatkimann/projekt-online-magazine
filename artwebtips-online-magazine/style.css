@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* Ved at sætte margin og padding til nul ved stjenen, fjerner jeg bulletpoints fra navbaren*/
 *{
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    font-family: 'Poppins', monospace;
+    font-family: 'Poppins', monospace, sans-serif
 
 
 }
@@ -12,14 +13,16 @@
 
 
 body{
+    min-height: 100vh;
     width:100%;
     background-image: url(./img-webp/forside-billeder/pexels-ray-piedra-1478477\ \(1\).webp);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 
-nav{
+nav{ 
     width:100%;
     background-color: #F2B263;
     height:75px;
@@ -53,7 +56,7 @@ nav ul li a{
     font-family:'Poppins', monospace;
     color:white;
     font-size: 17px;
-    padding: 0px 16px;
+    padding: 0px 30px;
     display: block;
 }
 
@@ -110,7 +113,7 @@ nav ul li ul li a:hover{
   border-radius: 10px;
 }
 
-/*ved at bruge elementet z-index sikre jeg mig at teksten viser sig oven på den containeren*/
+/*ved at bruge elementet z-index sikre jeg mig at teksten viser sig oven på containeren*/
 
 .text {
     position: relative;
