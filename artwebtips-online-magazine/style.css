@@ -12,11 +12,23 @@
 body{
     min-height: 100vh;
     width:100%;
+}
+
+.bodybackground-1{
     background-image: url(./img-webp/forside-billeder/forsidens-background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.bodybackground-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 
 
 nav{ 
