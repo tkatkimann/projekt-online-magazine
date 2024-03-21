@@ -6,8 +6,6 @@
     padding:0px;
     box-sizing: border-box;
     font-family: 'Poppins', monospace, sans-serif
-
-
 }
 
 
@@ -36,9 +34,16 @@ nav h1 {
     font-family:'Poppins', monospace;
     color:white;
     float: left;
+    margin-right: 20px;
    
 }
 
+nav h1 .logo{
+    height: 50px;
+    width:auto;
+    vertical-align: middle;
+    transform: scaleX(-1);
+}
 
 
 nav ul{
