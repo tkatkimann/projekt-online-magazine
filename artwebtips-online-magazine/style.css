@@ -9,25 +9,28 @@
 }
 
 
+h3{
+    font-size:40px;
+}
+
+.tekst-beskrivelse{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.alle-container{
+    margin-top: 50px;
+    margin-left:90px;
+    margin-right:95px;
+    margin-bottom: 50px;
+    
+}
+
+
 body{
     min-height: 100vh;
     width:100%;
 }
-
-.bodybackground-1{
-    background-image: url(./img-webp/forside-billeder/forsidens-background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.bodybackground-2{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-
 
 
 
@@ -152,3 +155,48 @@ h2{
 .beskrivelse{
     font-size: 25px;
 }
+
+/*BILLEDER OG BAGGRUNDSBILLEDER*/
+
+.bodybackground-1{
+    background-image: url(./img-webp/forside-billeder/forsidens-background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bodybackground-2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*START - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
+
+
+.container-2-2 {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box-2-2 {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.box-2-2 img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.udstyr-beskrivelse{
+    text-align: left;
+  margin: 20px;}
+  
+
+/*SlUT - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
+
+
