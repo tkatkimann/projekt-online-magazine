@@ -13,16 +13,23 @@ h3{
     font-size:40px;
 }
 
+h4{
+    font-size: 30px;
+}
+
 .tekst-beskrivelse{
     font-size: 25px;
     margin-top: 10px;
 }
 
+/*Bruges næsten  til alle artikler, på nær forsiden*/
+
 .alle-container{
-    margin-top: 50px;
-    margin-left:90px;
-    margin-right:95px;
-    margin-bottom: 50px;
+    padding-right:120px;
+    padding-left: 120px;
+    padding-top: 50px;
+  
+
     
 }
 
@@ -45,7 +52,6 @@ nav{
 
 nav h1 {
     font-size: 32px;
-    font-family:'Poppins', monospace;
     color:white;
     float: left;
     margin-right: 20px;
@@ -78,7 +84,6 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    font-family:'Poppins', monospace;
     color:white;
     font-size: 17px;
     padding: 0px 30px;
@@ -118,7 +123,7 @@ nav ul li ul li a:hover{
     background-color:#94b9a0;
 }
 
-/*indtroduktionstekst til forsiden*/
+/*START-INTRODUKTION TIL FORSIDEN*/
 
 .box{
     height:700px;
@@ -173,6 +178,10 @@ h2{
 
 /*START - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
 
+.container-2{
+    margin-bottom:50px ;
+}
+
 
 .container-2-2 {
   display: flex;
@@ -198,5 +207,27 @@ h2{
   
 
 /*SlUT - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
+.image-to-rigt {
+    float:right;
+    margin-left:30px;
+    margin-bottom:30px;
+    
+}
 
+.link-ipad{
+    font-size:12px;
+}
+
+.programliste{
+    margin-top:60px;
+    margin-left:60px;
+    margin-bottom:60px;
+}
+
+
+/*START- REDIGERING TIL INDHOLD AF DIGITALTEGING*/
+
+
+
+/*SLUT- REDIGERING TIL INDHOLD AF DIGITALTEGING*/
 
