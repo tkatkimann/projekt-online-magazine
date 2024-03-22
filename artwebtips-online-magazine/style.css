@@ -221,8 +221,19 @@ h2{
     
 }
 
+.farvecirkel-1{
+    float:left;
+    margin-right:60px;
+}
+
 .link-ipad{
     font-size:12px;
+
+}
+
+.programliste-2{
+    margin-left:60px;
+    margin-bottom:60px;
 }
 
 .programliste{
