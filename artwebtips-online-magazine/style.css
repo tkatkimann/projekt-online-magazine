@@ -19,7 +19,7 @@ h4{
 
 .tekst-beskrivelse{
     font-size: 25px;
-    margin-top: 10px;
+    
 }
 
 /*Bruges næsten  til alle artikler, på nær forsiden*/
@@ -246,8 +246,56 @@ h2{
 
 .reference-body{
     float:right;
+   
 }
 
 .tekst-beskrivelse-1{
     font-size: 20px;
 }
+
+/*SLUT - REDIGERING TIL INDHOLD AF ANATOMI */
+
+/* START - REDIGERING TIL INDHOLD AF FARVETEORI>*/
+
+
+
+.val, .sat, .hue {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.val-des, .sat-des, .hue-des {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.val-pic, .sat-pic, .hue-pic {
+    
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+.val p, .sat p, .hue p {
+    font-size: 20px;
+}
+
+.marcos-billeder{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: auto ;
+        margin-top:20px;
+        margin-bottom:20px;
+}
+
+
+
+/* Ved brug af "display blok" får marcos billede til at opføre sig som et element på blokniveau. Ved at indsætte indstillingenr til "margin-venstre: auto;" og "margin-højre: auto;" får jeg indstillet margins lige på venstre og højre side af billedet*/
+
+/* SLUT - REDIGERING TIL INDHOLD AF FARVETEORI>*/
+
