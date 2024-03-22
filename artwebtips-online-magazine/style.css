@@ -10,7 +10,7 @@
 
 
 h3{
-    font-size:40px;
+    font-size:35px;
 }
 
 h4{
@@ -161,7 +161,9 @@ h2{
     font-size: 25px;
 }
 
-/*BILLEDER OG BAGGRUNDSBILLEDER*/
+/*SLUT-INTRODUKTION TIL FORSIDEN*/
+
+/*START - BILLEDER OG BAGGRUNDSBILLEDER*/
 
 .bodybackground-1{
     background-image: url(./img-webp/forside-billeder/forsidens-background.webp);
@@ -175,6 +177,8 @@ h2{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/*SLUT- BILLEDER OG BAGGRUNDSBILLEDER*/
 
 /*START - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
 
@@ -207,6 +211,9 @@ h2{
   
 
 /*SlUT - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
+
+/*START- REDIGERING TIL INDHOLD AF DIGITALTEGING*/
+
 .image-to-rigt {
     float:right;
     margin-left:30px;
@@ -223,10 +230,6 @@ h2{
     margin-left:60px;
     margin-bottom:60px;
 }
-
-
-/*START- REDIGERING TIL INDHOLD AF DIGITALTEGING*/
-
 
 
 /*SLUT- REDIGERING TIL INDHOLD AF DIGITALTEGING*/
