@@ -231,10 +231,7 @@ h2{
 
 }
 
-.programliste-2{
-    margin-left:60px;
-    margin-bottom:60px;
-}
+
 
 .programliste{
     margin-top:60px;
@@ -245,3 +242,12 @@ h2{
 
 /*SLUT- REDIGERING TIL INDHOLD AF DIGITALTEGING*/
 
+/*START- REDIGERING TIL INDHOLD AF ANATOMI*/
+
+.reference-body{
+    float:right;
+}
+
+.tekst-beskrivelse-1{
+    font-size: 20px;
+}
