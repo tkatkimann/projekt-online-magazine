@@ -276,6 +276,10 @@ h2{
     
     border-radius: 10px;
     margin-right: 20px;
+    width: 400px;
+    height: auto;
+
+
 }
 
 
@@ -298,4 +302,37 @@ h2{
 /* Ved brug af "display blok" får marcos billede til at opføre sig som et element på blokniveau. Ved at indsætte indstillingenr til "margin-venstre: auto;" og "margin-højre: auto;" får jeg indstillet margins lige på venstre og højre side af billedet*/
 
 /* SLUT - REDIGERING TIL INDHOLD AF FARVETEORI>*/
+
+/* START - REDIGERING TIL INDHOLD AF SKYGGETEKNIK>*/
+
+.bold-1, .bold-2, .bold-3, .bold-4, .bold-5, .bold-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+
+
+.bold-1-des, .bold-2-des, .bold-3-des, .bold-4-des, .bold-5-des, .bold-6-des {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+
+
+.bold-1 p, .bold-2 p, .bold-3 p, .bold-4 p, .bold-5 p, .bold-6 p {
+    font-size: 20px; 
+}
+
+.bold-1-pic, .bold-2-pic, .bold-3-pic, .bold-4-pic, .bold-5-pic, .bold-6-pic {
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 600px;
+    height: auto;
+}
+
+/* SLUT - REDIGERING TIL INDHOLD AF SKYGGETEKNIK>*/
 
