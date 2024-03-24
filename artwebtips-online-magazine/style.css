@@ -298,8 +298,6 @@ h2{
         margin-bottom:20px;
 }
 
-
-
 /* Ved brug af "display blok" får marcos billede til at opføre sig som et element på blokniveau. Ved at indsætte indstillingenr til "margin-venstre: auto;" og "margin-højre: auto;" får jeg indstillet margins lige på venstre og højre side af billedet*/
 
 /* SLUT - REDIGERING TIL INDHOLD AF FARVETEORI>*/
@@ -322,7 +320,6 @@ h2{
 }
 
 
-
 .bold-1 p, .bold-2 p, .bold-3 p, .bold-4 p, .bold-5 p, .bold-6 p {
     font-size: 20px; 
 }
@@ -336,7 +333,7 @@ h2{
 
 /* SLUT - REDIGERING TIL INDHOLD AF SKYGGETEKNIK>*/
 
-/*  start - pallete*/
+/*START - REDIGERING AF INDHOLD AF PALLETE OG DTIYS*/
 
 .pallete-container {
      display: flex;
@@ -363,9 +360,9 @@ h2{
 
 }
 
-/*slut pallete*/
+/*SLUT - REDIGERING AF INDHOLD AF PALLETE OG DTIYS*/
 
-/*start artstle*/
+/*START- REDIGERING AF INDHOLD AF ARTSTYLE*/
 .artstyle-container {
     display: flex;
     justify-content: center; /* Centrerer indholdet vandret */
@@ -393,9 +390,9 @@ h2{
    
  }
 
-  /*artstyle slut*/
+  /*SLUT - REDIGERING AF INDHOLD AF ARTSTYLE*/
 
-  /*start - yotube */
+  /*START - REDIGERING AF INDHOLD YOUTUBE OG INSTAGRAM*/
 
 
   .kunst-youtuber {
@@ -406,28 +403,28 @@ h2{
 
 
 .sir-sam img {
-    width: auto; /* Juster bredden efter behov */
-    height: 200px; /* Juster højden efter behov */
+    width: auto; 
+    height: 200px; 
     object-fit: cover; /* Sikrer, at billedet ikke strækkes, men beskæres efter behov */
 }
 
 .orange-button {
     background-color: #F2B263;
     color: white;
-    padding: 10px 20px; /* Adjust padding to increase button size */
+    padding: 10px 20px; /* denne funtion øger knappens størrelse */
     border: none;
-    border-radius: 5px; /* Add rounded corners for a nicer look */
+    border-radius: 5px; /* tilføjer runde kanter til knappen */
     cursor: pointer;
     margin-top:20px;
-    font-size: 20px; /* Adjust font size if needed */
+    font-size: 20px; 
 }
 
-/* Style on hover */
+/* Style af  hover */
 .orange-button:hover {
-    background-color: #86A690; /* Change background color to green on hover */
+    background-color: #86A690; 
 }
 
 
-  /*slut youtube*/
+  /*SLUT - REDIGERING AF INDHOLD AF YOUTUBE OG INSTAGRAM*/
   
   

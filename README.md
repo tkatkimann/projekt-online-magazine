@@ -1,12 +1,10 @@
 # projekt-online-magazine
 School assignment
 
+
 Navngivning af mappe og filnavne samt struktur:
 
-Dokumentér venligst din praksis vedrørende navngivningen af mapper og filer under udviklingen af dit online magasin samt hvordan du har organiseret dine filer i forskellige mapper.
-
-
-Navngivningen af mapper: ingen store bogstaver, ingen danske vokaler som "æ", "ø" eller "å".
+Ingen store bogstaver, ingen danske vokaler som "æ", "ø" eller "å".
 
 Den først mappe er  "projekt-online-magazine", som indeholder denne README.md fil og en ekstra mappe med navnet, artwebtips-online-magazine. 
 
@@ -27,7 +25,8 @@ Alle billeder er i filformaterne WebP.
 
 "img-webp" mappen indholder mapper til mine 5 hovemenuer: forside-billeder, artstyle-billeder, challenges-billeder, kunstinfluencer-billeder og learn-to-draw-billeder. Alle mapper har samme efternavn "billeder".
 
-1. "forside-billeder" mappen indeholder billederne: forsidens-background (billedet er hentet gratis fra Pexels:https://www.pexels.com/da-dk/foto/kamera-skrivebord-bord-teknologi-1478477/), logo (logoet et selvtegnet).
+1. "forside-billeder" mappen indeholder billederne: forsidens-background (billedet er hentet gratis fra Pexels:https://www.pexels.com/da-dk/foto/kamera-skrivebord-bord-teknologi-1478477/), logo.
+(Alle billeder der ikke har kilde er mine egne) 
 
 2. "artstyle-billeder" mappen indeholder 3 mapper: charcter-art-images, cubism-art-images og pop-art-images.
 hver er de 3 mapper inderholder deres billeder til html siden.
@@ -37,6 +36,23 @@ hver er de 3 mapper inderholder deres billeder til html siden.
 4. "kunstinfluencer-billede" mappen indeholder 2 mapper: youtube og instgram.  (her er der lavet mønster for billederne i mappen instagram med efternavnet "instagram" og billederne i mappen yotube med efternavnet "photo" (et af billederne er skrevet forkert))
 
 5."learn-to-draw-billeder" mappen indeholder også 5 mapper: anatomi, farveteori, img-digitalkunst, img-kunstmaterialer og skygge teknik. (Her er billederne ikke organiseret ordentlig, idet de ikke har fået et efternavn)
+
+
+Fremhæv dine semantiske tags samt få CSS egenskaber:
+
+Dette er mine basale struktur af mine semantiske tags som jeg har brugt for at opbygge mit online magazine:
+<!-- <html><body> <nav></nav> <main class="alle-container"> <section> <aside></aside><article></article></section></main></body></html> -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
