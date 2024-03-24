@@ -47,6 +47,7 @@ nav{
     height:75px;
     line-height: 75px;
     padding: 0px 120px;
+   
 }
 
 
@@ -322,7 +323,6 @@ h2{
 
 
 
-
 .bold-1 p, .bold-2 p, .bold-3 p, .bold-4 p, .bold-5 p, .bold-6 p {
     font-size: 20px; 
 }
@@ -336,3 +336,98 @@ h2{
 
 /* SLUT - REDIGERING TIL INDHOLD AF SKYGGETEKNIK>*/
 
+/*  start - pallete*/
+
+.pallete-container {
+     display: flex;
+
+}
+.pallete-container img{
+   width: auto;
+    height: 600px; 
+    margin-right: 20px;
+    margin-top:20px;
+}
+
+.dtiys-container{
+
+        display: flex;
+   
+}
+
+.dtiys-container img{
+    width: auto;
+    height: 500px; 
+    margin-right: 20px;
+    margin-top:20px;
+
+}
+
+/*slut pallete*/
+
+/*start artstle*/
+.artstyle-container {
+    display: flex;
+    justify-content: center; /* Centrerer indholdet vandret */
+    align-items: center; /* Centrerer indholdet lodret */
+}
+
+.kunstværk {
+    text-align: center;
+}
+
+.kunstværk img {
+    border-radius: 10px; /* Gør kanterne runde */
+    margin-right: 40px;
+    width: auto;
+    height: 300px;
+}
+
+.kunstværk p{
+   text-align: center;
+   margin-right:40px;
+}
+
+.kunstværk .tekst-på-venstre{
+    text-align: left;
+   
+ }
+
+  /*artstyle slut*/
+
+  /*start - yotube */
+
+
+  .kunst-youtuber {
+    width: 40%;
+    float: left;
+}
+    
+
+
+.sir-sam img {
+    width: auto; /* Juster bredden efter behov */
+    height: 200px; /* Juster højden efter behov */
+    object-fit: cover; /* Sikrer, at billedet ikke strækkes, men beskæres efter behov */
+}
+
+.orange-button {
+    background-color: #F2B263;
+    color: white;
+    padding: 10px 20px; /* Adjust padding to increase button size */
+    border: none;
+    border-radius: 5px; /* Add rounded corners for a nicer look */
+    cursor: pointer;
+    margin-top:20px;
+    font-size: 20px; /* Adjust font size if needed */
+}
+
+/* Style on hover */
+.orange-button:hover {
+    background-color: #86A690; /* Change background color to green on hover */
+}
+
+
+  /*slut youtube*/
+  
+  
