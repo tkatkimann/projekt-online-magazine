@@ -8,15 +8,18 @@
     font-family: 'Poppins', monospace, sans-serif
 }
 
-
+/* alle hovedoverskrifterne h3 får font-size 35px*/
 h3{
     font-size:35px;
 }
 
+/* underemnerne i artiklerne får font-size 30px*/
 h4{
     font-size: 30px;
 }
 
+
+/*alle artiklernes tekst i størrelse 25. Det vil være bedre hvis jeg havde  sat p med krølle-parentese til 25px i stedet at bruge class til størstedelen af mine tekster */
 .tekst-beskrivelse{
     font-size: 25px;
     
@@ -28,8 +31,6 @@ h4{
     padding-right:120px;
     padding-left: 120px;
     padding-top: 50px;
-  
-
     
 }
 
@@ -40,7 +41,7 @@ body{
 }
 
 
-
+/*opbyggelse af min navbar*/
 nav{ 
     width:100%;
     background-color: #F2B263;
@@ -50,6 +51,7 @@ nav{
    
 }
 
+/*Justering af størrelse på h1 som er hjemmesidens navn*/
 
 nav h1 {
     font-size: 32px;
@@ -59,6 +61,8 @@ nav h1 {
    
 }
 
+/*Størrelsen på logo billedet. Logoet spejlvendes */
+
 nav h1 .logo{
     height: 50px;
     width:auto;
@@ -66,15 +70,18 @@ nav h1 .logo{
     transform: scaleX(-1);
 }
 
-
+/*hjemmesidens navn skiftes farve*/
 nav h1 a{
     text-decoration: none;
     color:white;
 }
 
+/*de 5 hovemenuer flyttes på højreside*/
 nav ul{
     float:right;
 }
+
+/*li inde i en ul unordered list inden for navigationen. De flyder til venstre*/
 
 nav ul li{
     float:left;
@@ -82,6 +89,8 @@ nav ul li{
     position: relative;
 }
 
+
+/*linksene bliver hvide og understregene fjernes*/
 
 nav ul li a{
     text-decoration: none;
@@ -103,6 +112,7 @@ nav ul li ul{
     border-radius: 0px 0px 5px 5px;
 }
 
+/*istedet for at trykke på bogstaverne kan kasserne bruges*/
 nav ul li:hover ul{
     display:block;
 }
@@ -183,16 +193,23 @@ h2{
 
 /*START - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
 
+
+
+
 .container-2{
     margin-bottom:50px ;
 }
 
-
+/*"container-2-2" er sektionen, som indeholder  alle indholdselementer*/
 .container-2-2 {
   display: flex;
   width: 80%;
   margin: 0 auto;
 }
+
+/*".box-2-2 er beholderen for hvert materiale (f.eks. tegneblok, farveblyanter osv.) */
+
+/*width er 25%, så det giver en række med fire bokse på tværs af skærmen.*/
 
 .box-2-2 {
   display: inline-block;
@@ -200,15 +217,22 @@ h2{
   text-align: center;
 }
 
+/* Stylingen for billedet inde i hver boks.*/
+
+/* Jeg havde det lidt svær med at justere billederne. Jeg satte billederne  til width og height til 80%  for tilpasse boksene */
+
 .box-2-2 img {
   width: 80%;
   height: 80%;
   object-fit: cover;
 }
 
+
+
 .udstyr-beskrivelse{
     text-align: left;
-  margin: 20px;}
+  margin: 20px; /*tilføjet en margin på 20px rundt om beskrivelsen for skabe plads mellem teksterne*/
+}
   
 
 /*SlUT - REDIGERINGER TIL INDHOLD AF KUNSTMATERIALER */
@@ -231,8 +255,6 @@ h2{
     font-size:12px;
 
 }
-
-
 
 .programliste{
     margin-top:60px;
@@ -258,7 +280,7 @@ h2{
 
 /* START - REDIGERING TIL INDHOLD AF FARVETEORI>*/
 
-
+/*jeg har skrevet kommentar til sammme struktur i indhold af skyggeteknik */
 
 .val, .sat, .hue {
     display: flex;
@@ -305,30 +327,29 @@ h2{
 /* START - REDIGERING TIL INDHOLD AF SKYGGETEKNIK>*/
 
 .bold-1, .bold-2, .bold-3, .bold-4, .bold-5, .bold-6{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 20px;
+    display: flex; /* gør containerne flexisble*/
+    flex-direction: row;  /*for at gøre billedet vandret på main Axis */
+    justify-content: flex-start;  /* sectionen for billedet og teksten rykkes på venstre side af hjemmesiden */
+    margin-bottom: 20px;  /* der er 20px mellemrum til denne section og den næste section */
 }
 
 
-
 .bold-1-des, .bold-2-des, .bold-3-des, .bold-4-des, .bold-5-des, .bold-6-des {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
+    display: flex;  /* gør containerne flexisble.*/
+    flex-direction: column; /* main axis bliver lodret */
+    margin-left: 10px; /* billedet og teksten får et mellem på 10px*/
 }
 
 
 .bold-1 p, .bold-2 p, .bold-3 p, .bold-4 p, .bold-5 p, .bold-6 p {
-    font-size: 20px; 
+    font-size: 20px; /* for at vælge p inden for elementet i bold-1 sectionen og gøre teksten 20 px stor*/
 }
 
 .bold-1-pic, .bold-2-pic, .bold-3-pic, .bold-4-pic, .bold-5-pic, .bold-6-pic {
-    border-radius: 10px;
-    margin-right: 20px;
-    width: 600px;
-    height: auto;
+    border-radius: 10px; /* denne egenskab gør at billedet for runde hjørner med 10 px*/
+    margin-right: 20px; /*billedet får skubbet 20 px til højre */
+    width: 600px; /*bredden for billedet sættes til 600px*/
+    height: auto; /* højden af billederne justeres automatisk*/
 }
 
 /* SLUT - REDIGERING TIL INDHOLD AF SKYGGETEKNIK>*/

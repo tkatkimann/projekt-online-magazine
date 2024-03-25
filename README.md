@@ -43,6 +43,44 @@ Fremhæv dine semantiske tags samt få CSS egenskaber:
 Dette er mine basale struktur af mine semantiske tags som jeg har brugt for at opbygge mit online magazine:
 <!-- <html><body> <nav></nav> <main class="alle-container"> <section> <aside></aside><article></article></section></main></body></html> -->
 
+Jeg har lavet en class for min mit tag, <!--<main = "alle-container"></main> -->
+Tagget har jeg brugt i sammenhæng med det dominerende indhold på siden.
+
+Jeg har sat en class'en ".alle-container" for mit main, fordi jeg ikke ville have at min tekster eller billeder fylder hele hjemmesidens skærm. Derfor har jeg brugt css for at skabe en ramme for alt mit indhold ved at bruge padding.
+
+Jeg har brugt tagget section i sammenhæng med mine artikler, aside, og div. 
+
+Jeg har få gange brugt aside i stedet for div. Jeg benyttede aside for flytte mine billeder på højre eller venstre side af min section.
+
+Tagget article indeholder alle teksterne i form af <h3> <h4> og <p>.
+
+
+Optimmeringer:
+Jeg jar lavet en den fejl, at jeg har brugt for mange <br> og <hr> i mit HTML. Linjeskift bør generelt administreres gennem CSS.
+
+Jeg har lavet den fejl, at jeg har brugt en del div-elementer i mit html filer under section. Jeg har brugt div elementet  mest til mine billeder og deres placeringer på hjemmesiden.
+
+F.eks. har jeg brugt div til strukturen af min skyggeteknik undermenu. 
+Eksempel ved brug af div: 
+
+
+Eksempel på brug af semantisk tags med css. I digital-kunst-for nybegyndere har jeg uden for min article tag brugt tagget aside for at flytte et billede med tekst til højre. Det har jeg gjort så "boksen med billede og tekst" kan blive omringet af artiklen.
+
+.image-to-rigt {
+    float:right;
+    margin-left:30px;
+    margin-bottom:30px;
+}
+
+
+
+
+HTML & CSS validation:
+<img src="/screenshot-of-validation/css-screenshot.JPG">
+<img src="/screenshot-of-validation/index-screenshot.JPG">
+
+
+
 
 
 
