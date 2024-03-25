@@ -5,31 +5,32 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
-    font-family: 'Poppins', monospace, sans-serif
+    font-family: 'poppins',Helvetica, Arial, sans-serif
 }
 
 /* alle hovedoverskrifterne h3 får font-size 35px*/
 h3{
-    font-size:35px;
+    font-size:25px;
 }
 
 /* underemnerne i artiklerne får font-size 30px*/
 h4{
     font-size: 30px;
+    
 }
 
 
 /*alle artiklernes tekst i størrelse 25. Det vil være bedre hvis jeg havde  sat p med krølle-parentese til 25px i stedet at bruge class til størstedelen af mine tekster */
 .tekst-beskrivelse{
-    font-size: 25px;
+    font-size: 15px;
     
 }
 
 /*Bruges næsten  til alle artikler, på nær forsiden*/
 
 .alle-container{
-    padding-right:120px;
-    padding-left: 120px;
+    padding-right:80px;
+    padding-left: 80px;
     padding-top: 50px;
     
 }
@@ -67,8 +68,7 @@ nav h1 .logo{
     height: 50px;
     width:auto;
     vertical-align: middle;
-    transform: scaleX(-1);
-}
+    transform: scaleX(-1);}
 
 /*hjemmesidens navn skiftes farve*/
 nav h1 a{
@@ -79,6 +79,7 @@ nav h1 a{
 /*de 5 hovemenuer flyttes på højreside*/
 nav ul{
     float:right;
+    display:block
 }
 
 /*li inde i en ul unordered list inden for navigationen. De flyder til venstre*/
@@ -94,14 +95,14 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color:white;
+    color:black;
     font-size: 17px;
     padding: 0px 30px;
     display: block;
 }
 
 nav ul li a:hover{
-    background-color:#86A690
+    background-color: #F2B263;
 
 }
 
@@ -137,8 +138,8 @@ nav ul li ul li a:hover{
 /*START-INTRODUKTION TIL FORSIDEN*/
 
 .box{
-    height:700px;
-    width: 600px;
+    height:500px;
+    width: 400px;
     margin-left: 50px;
     margin-top: 50px;
     position: relative;
@@ -159,17 +160,17 @@ nav ul li ul li a:hover{
 .text {
     position: relative;
     z-index: 1; 
-    color: white; 
+    color: rgb(255, 255, 255); 
     text-align: left; 
     padding: 50px; 
   }
 
 h2{
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .beskrivelse{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 /*SLUT-INTRODUKTION TIL FORSIDEN*/
@@ -348,7 +349,7 @@ h2{
 .bold-1-pic, .bold-2-pic, .bold-3-pic, .bold-4-pic, .bold-5-pic, .bold-6-pic {
     border-radius: 10px; /* denne egenskab gør at billedet for runde hjørner med 10 px*/
     margin-right: 20px; /*billedet får skubbet 20 px til højre */
-    width: 600px; /*bredden for billedet sættes til 600px*/
+    width: 400px; /*bredden for billedet sættes til 400px*/
     height: auto; /* højden af billederne justeres automatisk*/
 }
 
@@ -398,7 +399,7 @@ h2{
     border-radius: 10px; /* Gør kanterne runde */
     margin-right: 40px;
     width: auto;
-    height: 300px;
+    height: 200px;
 }
 
 .kunstværk p{
